@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #938DF8;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+.navegacao ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navegacao ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sobre {
+    text-align: center;
+    background-color: #EDEAEA;
+    padding: 60px 20px;
+}
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sobre-nome {
+    color: #938DF8;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.sobre-titulo {
+    color: #C5C0C0;
+    font-size: 24px;
+    margin-top: 10px;
+}
